@@ -35,7 +35,7 @@ $cert = New-SelfSignedCertificate -Subject "localhost" -TextExtension @("2.5.29.
 $pwd = ConvertTo-SecureString -String "httpfileserver" -Force -AsPlainText
 Export-PfxCertificate -Cert $cert -FilePath $env:userprofile\downloads\cert.pfx -Password $pwd
 ```
-### Convert the pfx to a .pem extension
+### Convert the .pfx file to a .pem extension
 After converting the certificate move it to the same directory as the script then run 
 ```
 python http-file-server.py 

@@ -42,7 +42,7 @@ openssl pkcs12 -in cert.pfx -out cert.pem -nodes
 ```
 After converting the certificate move it to the same directory as the script then run 
 ```
-python http-file-server.py 
+python https-file-server.py 
 ```
 
 ### Support and Contributions

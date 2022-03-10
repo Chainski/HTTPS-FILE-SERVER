@@ -1,7 +1,7 @@
 <a href="https://github.com/chainski/HTTPS-FILE-SERVER"><img src="https://img.shields.io/badge/OPEN--SOURCE-YES-green"></a>
 <a href="https://github.com/chainski/HTTPS-FILE-SERVER"><img src="https://img.shields.io/badge/PYTHON-3.10-green"></a>
 <a href="https://github.com/chainski/HTTPS-FILE-SERVER"><img src="https://img.shields.io/badge/license-GPL--3.0-orange"></a> 
-<a href="https://github.com/chainski/HTTPS-FILE-SERVER/releases"><img src="https://img.shields.io/github/v/release/chainski/HTTPS-FILE-SERVER?style=plastic"></a> 
+<a href="https://github.com/chainski/HTTPS-FILE-SERVER"><img src="https://img.shields.io/badge/contributions-welcome-green"></a>
 
 # HTTPS-FILE-SERVER
 - This is a simple http file server to access your files via webbrowser.

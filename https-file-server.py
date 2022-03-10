@@ -10,8 +10,6 @@ hostname = socket.gethostname()
 local_ip = socket.gethostbyname(hostname)
 
 print(Center.XCenter(f"Server running on https://localhost:{port}"))
-print(Center.XCenter('Server running on https://' + local_ip + ':443'))
-
 
 info = '''
 ╔═════════════════════════════════════════════════╗

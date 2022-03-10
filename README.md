@@ -27,7 +27,7 @@
 python https-file-server
 ```
 ## Mandatory SSL
-This script must be used with a certificate in order to work So, you need to generate one:
+This script must be used with a certificate in order to work so, you need to generate one:
 
 ### Open Powershell as admin and enter the command below
 ```

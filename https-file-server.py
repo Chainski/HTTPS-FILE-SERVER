@@ -16,7 +16,7 @@ info = '''
 ║                HTTP FILE SERVER                 ║
 ║               coded by CHINOTECH                ║
 ║       For Educational Purposes Only             ║
-║    Telegram Channel : https://t.me/chinotech    ║ 
+║             Made with Python 3                  ║ 
 ╚═════════════════════════════════════════════════╝
 '''  
 print(Colorate.Diagonal(Colors.red_to_white, Center.XCenter(info)))

@@ -2,14 +2,16 @@ import http.server
 import socket
 import ssl
 import os
+import webbrowser
 from pystyle import Anime, Colorate, Colors, Center, System, Write
 
-port = 443
+port = 80
 server_address = ('0.0.0.0', port)
 hostname = socket.gethostname()
 local_ip = socket.gethostbyname(hostname)
 
 print(Center.XCenter(f"Server running on https://localhost:{port}"))
+webbrowser.open(f"https://localhost:{port}")
 
 info = '''
 ╔═════════════════════════════════════════════════╗

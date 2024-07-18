@@ -14,7 +14,7 @@ print(Center.XCenter(f"Server running on https://localhost:{port}"))
 info = '''
 ╔═════════════════════════════════════════════════╗
 ║                HTTP FILE SERVER                 ║
-║               coded by CHINOTECH                ║
+║               coded by CHAINSKI                 ║
 ║       For Educational Purposes Only             ║
 ║             Made with Python 3                  ║ 
 ╚═════════════════════════════════════════════════╝

@@ -9,10 +9,8 @@ port = 80
 server_address = ('0.0.0.0', port)
 hostname = socket.gethostname()
 local_ip = socket.gethostbyname(hostname)
-
 print(Center.XCenter(f"Server running on https://localhost:{port}"))
 webbrowser.open(f"https://localhost:{port}")
-
 info = '''
 ╔═════════════════════════════════════════════════╗
 ║                HTTP FILE SERVER                 ║
@@ -22,11 +20,6 @@ info = '''
 ╚═════════════════════════════════════════════════╝
 '''  
 print(Colorate.Diagonal(Colors.red_to_white, Center.XCenter(info)))
-
-
-
-#os.chdir("./dist/")
-
 class CORSHTTPRequestHandler(http.server.SimpleHTTPRequestHandler):
     extensions_map = {
         '': 'application/octet-stream',
@@ -41,9 +34,7 @@ class CORSHTTPRequestHandler(http.server.SimpleHTTPRequestHandler):
         '.json': 'application/json',
         '.xml': 'application/xml',
     }
-
     def end_headers(self):
-        # Include additional response headers here. CORS for example:
         self.send_header('Access-Control-Allow-Origin', '*')
         self.send_header('Cross-Origin-Opener-Policy', 'same-origin')
         self.send_header('Cross-Origin-Embedder-Policy', 'require-corp')

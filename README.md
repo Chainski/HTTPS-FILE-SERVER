@@ -7,7 +7,8 @@
 - This is a simple http file server to access your files via webbrowser.
 
 ## Preview
-![image](https://user-images.githubusercontent.com/96607632/157678533-bbd2a9ee-6d78-4d91-9efa-b2cfb615108e.png)
+![server](https://github.com/user-attachments/assets/250b8b80-6525-48fe-a590-0aa2547ee86c)
+
 
 ## Support Python Version
 - Python 3.10+
